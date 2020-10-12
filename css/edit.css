@@ -1,0 +1,394 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	justify-content: space-between;
+}
+
+#cabecalho_0 {
+	background-image: url('backgrounds/binary-797274_960_720.png');
+	background-size: 1950px;
+	text-align: center;
+	
+}
+
+#cabecalho_txt0{
+	color: white;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+	font-size: 13px;
+}
+
+#cabecalho_1 {
+	display: flex;
+    align-items: justify;
+    justify-content: center;
+	height: 260px;
+}
+
+#logo_0 {
+    width: 250px;
+    height: 250px;
+	padding-bottom: 05px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+#cabecalho_1 img {
+	transform-origin: 50% 65%;
+    transition: transform 1s, filter 3s ease-in-out;
+}
+
+#cabecalho_1:hover img{
+	transform: scale(1.10);
+}
+
+#cabecalho_2 {
+    display: flex;
+    justify-content: center;
+	height: 40px;
+    background-color: black;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pesquisa_1 {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+	background-color: #ffffff;
+	border: solid 2px #070707;
+	text-align: justify;
+    font-size: 15px;
+    padding: 10px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	border-radius: 40px;
+	width: 600px;
+	height: 30px;
+	margin-right: 05px;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+	
+}
+
+#pesquisa_2 {
+	background-color: transparent;
+	border: none;
+	width: 25px;
+	height: 25px;
+	margin-left: -40px;
+	box-sizing: border-box;
+}
+
+#pesquisa_3 {
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+	margin-top: 4px;
+}
+
+#henry_1 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: justify;
+    justify-content: center;
+}
+
+#henry_2 {
+    width: 1300px;
+}
+
+.disciplinas_0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.disciplinas_1 {
+    border: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: #3e8239;
+	justify-content: center;
+	background-color: white;
+	transform-origin: 50% 65%;
+	transition: transform 0.5s, filter 1s ease-in-out;
+}
+
+.disciplinas_1:hover {
+	transform: scale(1.10);
+}
+
+.imagem_1 {
+	width: 250px;
+	border: none;
+	transform-origin: 50% 65%;
+    transition: transform 0.5s, filter 1s ease-in-out;
+}
+
+.imagem_1:hover {
+	transform: scale(1.10);
+	filter: saturate(0);
+}
+
+#meio_0 {
+    margin-left: 265px;
+    margin-right: 265px;
+}
+
+.botao_0 {
+	margin-top: 15px;
+	border: none;
+	margin: auto;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao_1 {
+	border: none;
+	margin: auto;
+	border-style: none;
+	color: rgb(255, 255, 255);
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+    text-decoration: none;
+	background: #172b13;
+	padding: 25px;
+	display: block;
+	outline-style: none;
+	box-shadow: none;
+	text-shadow: none;
+	width: 200px;
+	transition: all 0.4s ease 0s;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+}
+
+.botao_1:hover {
+    background: #acb6ad;
+	color: black;
+	font-weight: bolder;
+	letter-spacing: 1.2px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+#rodape_1{
+	display: flex;
+    align-items: justify;
+    justify-content: center;
+	background-image: url('backgrounds/binary-797274_960_720.png');
+	background-size: 1950px;
+}
+
+.site_0{
+	margin-top: 125px;
+	margin-bottom: 125px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 75px;
+	transform-origin: 50% 65%;
+    transition: transform 1s, filter 3s ease-in-out;
+}
+
+.site_0:hover{
+	transform: scale(1.3);
+}
+
+#rodape_null{
+	display: flex;
+    justify-content: center;
+	height: 40px;
+    background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#rodape_3{
+	display: flex;
+    justify-content: center;
+	height: 20px;
+    background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+#rodape_4 {
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+}
+
+#pai{
+	display: flex;
+}
+
+#barra_0 {
+	width: 300px;
+    background-color: transparent;
+    text-align: center;
+    align-items: justify;
+	justify-content: center;
+	border-right-color: #dddddd;
+	border-right-width: 0.5px;
+	border-right-style: solid;
+}
+
+.caixa_disciplinas{
+    color: #3e8239;
+    font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+	font-size: 8px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	transform-origin: 50% 65%;
+	letter-spacing: normal;
+}
+
+.caixa_disciplinas:hover {
+	background-color: rgb(207, 207, 207);
+	letter-spacing: 1.5px;
+	transition: all 0.4s ease 0s;
+	color: #10290e;
+}
+
+#conteudo_disciplina{
+	color: black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.titulo{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 20px;
+	text-align: center;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+	color: #10290e;
+	font-size: 40px;
+}
+
+.escolha{
+	text-align: center;
+	padding-top: 30px;
+	list-style-type: none;
+	text-decoration: none;
+	color: #3e8239;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+}
+
+.escolha:hover{
+	letter-spacing: 2.5px;;
+    transition: transform 1s, filter 3s ease-in-out;
+}
+
+#ingles_recado{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: red;
+}
+
+.paragrafo{
+	text-align: justify;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+	color: #10290e;
+	line-height: 40px;
+}
+
+#if_bancodados{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 1000px;
+	height: 500px;
+}
+
+.imagem{
+	margin-top: 20px;
+	width: 500px;
+	height: 450px;
+}
+
+.imagemredes{
+	margin-top: 20px;
+	width: 500px;
+	height: 425px;
+}
+
+.imagem_bancodados{
+	margin-top: 20px;
+	width: 500px;
+	height: 425px;
+}
+
+#descricao_bancodados{
+	text-align: center;
+	color: #3e8239;
+	line-height: 35px;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+}
+
+.imagem_labprog{
+	margin-top: 20px;
+	width: 500px;
+	height: 425px;
+}
+
+.link_disciplina{
+	border: none;
+	margin: auto;
+	border-style: none;
+	color: #3e8239;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+    text-decoration: none;
+	padding: 25px;
+	display: block;
+	outline-style: none;
+	box-shadow: none;
+	text-shadow: none;
+	width: 200px;
+	font-family: "Raleway", "Arial", "Georgia", "Courier New", "sans-serif";
+}
+
+#link_inicial {
+	color: #ffffff;
+	background-color: #204d1d;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: transform 1s, filter 3s ease-in-out;
+}
+
+#link_inicial:hover {
+	background: #10290e;
+    
+}
+
+
+@font-face {
+	font-family: Raleway;
+	src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+	font-family: RalewayBold;
+	src: url('fonts/Raleway-Bold.ttf');
+}
+
+
+
+
+/*background-color: #3e8239;
+
